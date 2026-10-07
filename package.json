@@ -1,0 +1,9 @@
+{
+  "name": "@anmol0e/claude-code-skills",
+  "version": "1.0.0",
+  "description": "Inspect and export Claude Code sessions from ~/.claude/",
+  "keywords": ["agent-skills", "claude-code", "sessions", "export", "agentlog", "asi"],
+  "files": ["skills/", "plugin.json", "LICENSE", "README.md"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/anmol0e/claude-code-skills.git" }
+}

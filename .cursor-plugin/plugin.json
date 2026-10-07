@@ -1,0 +1,22 @@
+{
+  "name": "claude-code-skills",
+  "displayName": "Claude Code Skills",
+  "version": "1.0.0",
+  "description": "Inspect, query, and export Claude Code sessions from ~/.claude/. Three skills: core (shared utilities), inspector (list/query sessions), and exporter (AgentLog + ASI output).",
+  "author": { "name": "anmol0e", "url": "https://github.com/anmol0e" },
+  "homepage": "https://github.com/anmol0e/claude-code-skills",
+  "repository": "https://github.com/anmol0e/claude-code-skills",
+  "license": "MIT",
+  "keywords": ["claude-code", "sessions", "export", "agentlog", "asi", "inspector", "jsonl"],
+  "category": "developer-tools",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Claude Code Skills",
+    "shortDescription": "Inspect and export Claude Code sessions",
+    "longDescription": "Three skills for working with Claude Code's ~/.claude/ session data: inspection (list, query, subagents, tools, history), export (raw JSONL + AgentLog v0.2.0 + ASI v1), and shared utilities.",
+    "developerName": "anmol0e",
+    "category": "Developer Tools",
+    "capabilities": ["Read"],
+    "defaultPrompt": ["List my Claude Code sessions", "Export this Claude Code session to AgentLog"]
+  }
+}

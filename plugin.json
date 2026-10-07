@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agentskills.io/schemas/plugin.json",
+  "name": "claude-code-skills",
+  "version": "1.0.0",
+  "description": "Inspect and export Claude Code sessions from ~/.claude/.",
+  "author": { "name": "anmol0e", "url": "https://github.com/anmol0e" },
+  "repository": "https://github.com/anmol0e/claude-code-skills",
+  "license": "MIT",
+  "skills": "./skills/"
+}
